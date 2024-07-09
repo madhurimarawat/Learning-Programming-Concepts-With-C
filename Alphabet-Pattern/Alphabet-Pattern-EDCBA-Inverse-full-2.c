@@ -1,10 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 
 // Program for printing pattern
 
 /*
 
-For r=6
+For r = 6
 
 F E D C B A
  E D C B A
@@ -15,52 +15,25 @@ F E D C B A
 
 */
 
-void main(){
+void main()
+{
 
-int i,s,j,r;
+     int i, s, j, r;
 
-printf("Enter number of rows: ");
-scanf("%d",&r);
+     printf("Enter number of rows: ");
+     scanf("%d", &r);
 
-for(i=0;i<r;i++){
-for(s=i;s>0;s--){
+     for (i = 0; i < r; i++)
+     {
+          for (s = i; s > 0; s--)
+          {
 
-printf(" ");
+               printf(" ");
+          }
+          for (j = r - i; j > 0; j--)
+          {
+               printf("%c ", 64 + j);
+          }
+          printf("\n");
+     }
 }
-for(j=r-i;j>0;j--){
-printf("%c ",64+j);
-
-}
-printf("\n");
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
