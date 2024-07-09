@@ -1,7 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
 // For converting to uppercase
-#include<ctype.h>
+#include <ctype.h>
 
 // Program for printing pattern
 
@@ -17,28 +17,34 @@ EEEEE
 
 */
 
-void main(){
+void main()
+{
 
-int j,s,i;
-char r;
+    int j, s, i;
+    char r;
 
-printf("Enter last character: ");
-scanf("%c",&r);
+    printf("Enter last character: ");
+    scanf("%c", &r);
 
-// Converting to uppercase
-r=toupper(r);
+    // Converting to uppercase
+    r = toupper(r);
 
-for(i=r;i>='A';i--){
-for(s=1;s<=r-i;s++){
+    for (i = r; i >= 'A'; i--)
+    {
+        for (s = 1; s <= r - i; s++)
+        {
 
-printf(" ");
-}
+            printf(" ");
+        }
 
-for(j=i;j>='A';j--){
-printf("%c",i);
-}
+        for (j = i; j >= 'A'; j--)
+        {
+            printf("%c", i);
+        }
 
-if(i!='A'){printf("\n");}
-}
-
+        if (i != 'A')
+        {
+            printf("\n");
+        }
+    }
 }
