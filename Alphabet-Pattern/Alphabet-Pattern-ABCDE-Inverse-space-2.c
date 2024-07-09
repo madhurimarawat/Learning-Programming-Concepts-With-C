@@ -1,7 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
 // For converting to uppercase
-#include<ctype.h>
+#include <ctype.h>
 
 // Program for printing pattern
 
@@ -17,27 +17,30 @@ ABCDE
 
 */
 
-void main(){
+void main()
+{
 
-char i,j,s,r;
+    char i, j, s, r;
 
-printf("Enter last character of rows: ");
-scanf("%c",&r);
+    printf("Enter last character of rows: ");
+    scanf("%c", &r);
 
-// Converting to uppercase
-r=toupper(r);
+    // Converting to uppercase
+    r = toupper(r);
 
-for(i='A';i<=r;i++){
-for(s=r;s>i;s--){
+    for (i = 'A'; i <= r; i++)
+    {
+        for (s = r; s > i; s--)
+        {
 
-printf(" ");
-}
+            printf(" ");
+        }
 
-for(j='A';j<=i;j++){
-printf("%c",j);
-}
+        for (j = 'A'; j <= i; j++)
+        {
+            printf("%c", j);
+        }
 
-printf("\n");
-}
-
+        printf("\n");
+    }
 }
