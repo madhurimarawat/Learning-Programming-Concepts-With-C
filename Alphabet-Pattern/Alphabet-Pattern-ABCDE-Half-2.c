@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 // Program for printing pattern
 
@@ -15,25 +15,29 @@ F
 
 */
 
-void main(){
+void main()
+{
 
-char c;
-int r,i,j,s;
+    char c;
+    int r, i, j, s;
 
-printf("Enter uppercase ending letter: ");
-scanf("%c",&c);
+    printf("Enter uppercase ending letter: ");
+    scanf("%c", &c);
 
-for(i='A';i<=c;i++){
+    for (i = 'A'; i <= c; i++)
+    {
 
-for(s=1;s>=i;s++){
+        for (s = 1; s >= i; s++)
+        {
 
-printf(" ");
-}
+            printf(" ");
+        }
 
-for(j=i;j<=c;j++){
- printf("%c",i);
-}
+        for (j = i; j <= c; j++)
+        {
+            printf("%c", i);
+        }
 
-printf("\n");
-}
+        printf("\n");
+    }
 }
