@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 // Program for pattern printing
 
@@ -12,47 +12,48 @@ EEEEE
 
 */
 
-void main(){
+void main()
+{
 
-// Declaring variables
+    // Declaring variables
 
-int m=5,n=5,i,j;
+    int m = 5, n = 5, i, j;
 
-for(i=0;i<m;i++){
+    for (i = 0; i < m; i++)
+    {
 
-for(j=0;j<n;j++){
+        for (j = 0; j < n; j++)
+        {
 
-// switch case
+            // switch case
 
-switch(i){
+            switch (i)
+            {
 
-case 0:
-printf("A"); break;
+            case 0:
+                printf("A");
+                break;
 
+            case 1:
+                printf("B");
+                break;
 
-case 1:
-printf("B"); break;
+            case 2:
+                printf("C");
+                break;
 
+            case 3:
+                printf("D");
+                break;
 
-case 2:
-printf("C");
-break;
+            case 4:
+                printf("E");
+                break;
 
-
-case 3:
-printf("D");
-break;
-
-
-case 4:
-printf("E");
-break;
-
-
-default:
-break;
-}
-}
-printf("\n");
-}
+            default:
+                break;
+            }
+        }
+        printf("\n");
+    }
 }
