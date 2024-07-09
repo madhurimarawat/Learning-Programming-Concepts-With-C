@@ -1,10 +1,7 @@
+// This program finds the largest number in the array using recursion
+
+// This program finds the largest number in the array using recursion
 #include <stdio.h>
-
-/*
-
-This program finds the largest number in the array using recursion
-
-*/
 
 // Declaring variable to store array
 int large(int[]);
