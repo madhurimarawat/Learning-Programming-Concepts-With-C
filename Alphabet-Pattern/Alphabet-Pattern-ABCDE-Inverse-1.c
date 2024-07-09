@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 // Program for printing pattern
 
@@ -14,24 +14,29 @@ E
 
 */
 
-void main(){
+void main()
+{
 
-int i,j,n;
-char al='A';
+    int i, j, n;
+    char al = 'A';
 
-printf("Enter number of rows: ");
-scanf("%d",&n);
+    printf("Enter number of rows: ");
+    scanf("%d", &n);
 
-printf("Pattern is:\n");
+    printf("Pattern is:\n");
 
-for(i=n;i>=1;i--){
-for(j=i;j>=1;j--){
+    for (i = n; i >= 1; i--)
+    {
+        for (j = i; j >= 1; j--)
+        {
 
- printf("%c",al);
+            printf("%c", al);
+        }
+        al++;
+
+        if (i != 1)
+        {
+            printf("\n");
+        }
+    }
 }
-al++;
-
-if(i!=1){printf("\n");}
-}
-}
-
