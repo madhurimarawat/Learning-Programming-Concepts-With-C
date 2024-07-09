@@ -1,6 +1,6 @@
-#include<stdio.h>
-
-#include<ctype.h>
+// Importing header files
+#include <stdio.h>
+#include <ctype.h>
 
 // Program for pattern printing
 
@@ -17,24 +17,27 @@ For c=F
 
 */
 
-void main(){
+void main()
+{
 
-int i,j;
+    int i, j;
 
-char c='A';
+    char c = 'A';
 
-printf("Enter Ending character: ");
-scanf("%s",&c);
+    printf("Enter Ending character: ");
+    scanf("%s", &c);
 
-c = toupper(c);
+    c = toupper(c);
 
-for(i='A';i<=c;i++){
-for(j='A';j<=c;j++){
+    for (i = 'A'; i <= c; i++)
+    {
+        for (j = 'A'; j <= c; j++)
+        {
 
-printf(" ");
+            printf(" ");
 
-printf("%c",i);
-}
-printf("\n");
-}
+            printf("%c", i);
+        }
+        printf("\n");
+    }
 }
