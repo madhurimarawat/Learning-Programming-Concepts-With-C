@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 // Program for pattern printing
 
@@ -12,20 +12,19 @@ EEEE
 
 */
 
-void main(){
+void main()
+{
 
-char i,j;
+  char i, j;
 
-for( i= 'A';i<='E';i++){
-for(j ='A'; j<'E';j++){
+  for (i = 'A'; i <= 'E'; i++)
+  {
+    for (j = 'A'; j < 'E'; j++)
+    {
 
-  printf("%c",i);
+      printf("%c", i);
+    }
+
+    printf("\n");
+  }
 }
-
-printf("\n");
-}
-
-}
-
-
-
