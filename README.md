@@ -1,11 +1,35 @@
-# Learning-Programming-Concepts-With-C
-This repository contains programs in the C programming language.
+# 📘 Learning Programming Concepts with C
 
-<img src="https://github.com/madhurimarawat/Learning-Programming-Concepts-With-C/assets/105432776/1a5ed510-e769-4f8d-9f73-e53bc738d14b" height=400 width=650>
+This repository contains **C programming programs** that I worked on during my **B.Tech Semester 1 – C Programming Lab**.  
+
+<img 
+  src="https://github.com/madhurimarawat/Learning-Programming-Concepts-With-C/assets/105432776/1a5ed510-e769-4f8d-9f73-e53bc738d14b" 
+  alt="Learning Programming Concepts with C - Sample Output and Programs Overview" 
+  height="400" 
+  width="650"
+/>
+
+### 📚 Notes, Slides & Study Materials
+You can find the **complete notes, slides, and study resources** related to this subject here:  
+🔗 [Semester 1 – Learning Programming Concepts with C](https://github.com/madhurimarawat/Semester-Notes/tree/main/1%20SEMESTER/Learning-Programming-Concepts-With-C)
+
+### 🎯 Key Highlights
+- 🧠 Beginner-friendly C programs  
+- 🧩 Covers core programming concepts  
+- 📝 Well-structured and commented code
+- I have also included the compiled `.exe` output files so you can directly run them and view the program output.
+- To run a program:
+  - Either double-click the `.exe` file, **or**
+  - Open the folder in Command Prompt and type:
+    ```
+    output-file-name.exe
+    ```
+  - Press **Enter** to see the output.
+- 🎓 Useful for students, lab practice, and revision  
 
 ---
 
-# About C Programming
+## About C Programming
 
 <img src="https://github.com/madhurimarawat/Data-structure-using-C/assets/105432776/c8b5fda5-7d9d-4c27-97c0-4fdf3f384a1e" height=400 width=650 > <br><br>
 --> C is a general-purpose programming language.<br><br>
@@ -14,7 +38,8 @@ This repository contains programs in the C programming language.
 --> It is Middle Level Programming language and gives more control to Programmer.
 
 ---
-# Mode of Execution used <img src="https://logodix.com/logo/1709678.png" height=30px width=30px>
+
+## Mode of Execution used <img src="https://logodix.com/logo/1709678.png" height=30px width=30px>
 <h2>GCC Compiler</h2>
 --> GCC stands for GNU C/C++ Compiler.<br><br>
 --> To begin with GCC, visit the official website &nbsp;<a href="https://gcc.gnu.org/"><img src="https://logodix.com/logo/1709678.png" height=30px width=30px></a><br><br>
@@ -32,14 +57,54 @@ gcc filename.c -o Output
 
 ---
 
-# C Programming Features
+## 📂 Directory Structure
+
+```markdown
+Learning-Programming-Concepts-With-C/
+│
+├── Alphabet-Pattern/                 # 🔤 Alphabet pattern programs
+│   └── Alphabet-Pattern-EDCBA-Inverse-space-3.c
+│
+├── Basic-Programs/                   # 🧩 Basic C programs with comments
+│   └── (Multiple basic C programs)
+│
+├── Loops/                            # 🔁 Programs based on loops
+│   └── (for, while, do-while programs)
+│
+├── Number-Pattern/                   # 🔢 Number pattern programs
+│   └── (Various number pattern programs)
+│
+├── Recursion/                        # ♻️ Recursive function programs
+│   └── Largest-array-recursion.c
+│
+├── Star-Pattern/                     # ⭐ Star pattern programs
+│   └── (Different star pattern programs)
+│
+├── String-functions-library/         # 📚 Inbuilt string function programs
+│   └── (Programs using standard string library functions)
+│
+├── User-Defined_string-Function/     # 🛠️ Custom string function implementations
+│   └── (User-defined string functions)
+│
+├── Output-Executables/               # ⚙️ Compiled .exe output files
+│   └── (*.exe files for direct execution)
+│
+├── LICENSE                           # 📜 License file
+│
+└── README.md                         # 📄 Project documentation
+```
+
+---
+
+## C Programming Features
 
 <img src="https://i.ytimg.com/vi/9NKiDjvS5uQ/maxresdefault.jpg" height=400 width=650>
 
 ---
-# Data Types in C
 
-<img src="https://th.bing.com/th/id/R.63f096ec4d86431aa7d876eed5cfd90b?rik=qkSHFbpW48OdAQ&riu=http%3a%2f%2fwww.atnyla.com%2flibrary%2fimages-tutorials%2fdatatypes-in-c-programming.PNG&ehk=Ukv2RGhTTkgROK0rfQ9PsXIrJPd9V%2bJZlYPF%2fWv8cuU%3d&risl=&pid=ImgRaw&r=0" height=400 width=650>
+## Data Types in C
+
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20220808115138/DatatypesInC.jpg" height=400 width=650>
 
 <h1>1.Primary Data Types</h1>
 Primitive data types are the most basic data types that are used for representing simple values such as integers, float, characters, etc.<br>
@@ -110,5 +175,5 @@ The data-types that are derived from the primitive or built-in datatypes are ref
 - Drop a 🌟 if you find this repository useful.<br><br>
 - If you have any doubts or suggestions, feel free to reach me.<br><br>
 📫 How to reach me:  &nbsp; [![Linkedin Badge](https://img.shields.io/badge/-madhurima-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/madhurima-rawat/) &nbsp; &nbsp;
-<a href ="mailto:rawatmadhurima@gmail.com"><img src="https://github.com/madhurimarawat/Machine-Learning-Using-Python/assets/105432776/b6a0873a-e961-42c0-8fbf-ab65828c961a" height=35 width=30 title="Mail Illustration" alt="Mail Illustration📫" > </a><br><br>
+<a href ="mailto:rawatmadhurima4@gmail.com"><img src="https://github.com/madhurimarawat/Machine-Learning-Using-Python/assets/105432776/b6a0873a-e961-42c0-8fbf-ab65828c961a" height=35 width=30 title="Mail Illustration" alt="Mail Illustration📫" > </a><br><br>
 - **Contribute and Discuss:** Feel free to open <a href= "https://github.com/madhurimarawat/Learning-Programming-Concepts-With-C/issues">issues 🐛</a>, submit <a href = "https://github.com/madhurimarawat/Learning-Programming-Concepts-With-C/pulls">pull requests 🛠️</a>, or start <a href = "https://github.com/madhurimarawat/Learning-Programming-Concepts-With-C/discussions">discussions 💬</a> to help improve this repository!
